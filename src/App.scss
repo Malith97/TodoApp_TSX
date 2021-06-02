@@ -1,0 +1,29 @@
+$primary_colour : #00c04a;
+
+h1{
+  color: $primary_colour;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container{
+  width : 640px;
+  height : 100%
+}
+
+.header{
+  color: $primary_colour;
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 35px;
+  align-items: center;
+  justify-content: center;;
+}
+
+.complete {
+  text-decoration: line-through;
+}
